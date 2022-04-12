@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CodeEditor">
+        <attr name="languageMode" format="enum">
+			<enum name="text" value="0"/>
+			<enum name="html" value="1"/>
+			<enum name="md" value="2"/>
+			<enum name="css" value="3"/>
+			<enum name="js" value="4"/>
+			<enum name="php" value="5"/>
+			<enum name="java" value="6"/>
+		</attr>
+		<attr name="showLineNumber" format="boolean" />
+		<attr name="checkSyntaxError" format="boolean" />
+		<attr name="enableTextWrap" format="boolean" />
+		<attr name="autoComplete" format="boolean"/>
+		<attr name="stickLineGutter" format="boolean"/>
+		<attr name="borderEnabled" format="boolean"/>
+    </declare-styleable>
+</resources>
